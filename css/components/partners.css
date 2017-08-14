@@ -1,0 +1,21 @@
+.partners {
+	margin: 58px 0 27px 0;}
+.partners__list {
+	margin: 30px 0 0 0;
+	font-size: 0;}
+.partners__item {
+	display: inline-block;
+	position: relative;
+	width: 160px;
+	height: 80px;
+	margin: 0 110px 35px 0;
+	overflow: hidden;}
+.partners__item img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	max-width: 100%;
+	filter: grayscale(100%);}
+.partners__item img:hover {
+	filter: none;}

@@ -1,0 +1,94 @@
+.form {
+	position: relative;
+	margin: 65px 0 75px 0;
+	padding-right: 180px;}
+.form__review {
+	border-radius: 4px;
+	padding: 45px 70px;
+	background-color: #f5f5f6;}
+.form__line {
+	margin-top: 17px;}
+.form__input {
+	display: block;
+	float: left;
+	width: 48%;}
+.form__input:first-child {
+	margin-right: 4%;}
+.form__field-title {
+	margin-bottom: 7px;
+	font-size: 14px;}
+.form__input-text, .form__textarea-text {
+	width: 100%;
+	font-size: 14px;
+	border: none;
+	border-radius: 3px;
+	border: 1px solid transparent}
+.form__input-text {
+	height: 45px;
+	padding-left: 10px;
+	line-height: 45px;
+	border: 1px solid transparent;}
+.form__input-text:focus, .form__textarea-text:focus {
+	border-color: #ec1e79;
+	outline: none;}
+.form__textarea-text {
+	height: 90px;
+	padding: 10px;
+	resize: none;}
+.form__left, .form__right {
+	float: left;
+	width: 50%;}
+.form__radio-title {
+	font-size: 14px;
+	margin-bottom: 7px;}
+.form__radio {
+	display: inline-block;}
+.form__radio-real {
+	vertical-align: middle;
+	display: none;}
+.form__radio-real:checked+.form__radio-fake {
+	border: 1px solid #ec227b;}
+.form__radio-fake {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	border-radius: 50%;
+	border: 1px solid #cbcbcb;
+	position: relative;
+	vertical-align: middle;
+	background: -webkit-linear-gradient(top, #fdfdfd 0%, #efefef 100%);
+	background: linear-gradient(to bottom, #fdfdfd 0%, #efefef 100%);}
+.form__radio-real:checked + .form__radio-fake:after {
+	display: block;}
+.form__radio-fake:after {
+	content: "";
+	display: none;
+	width: 8px;
+	height: 8px;
+	background: #ec227b;
+	border-radius: 50%;
+	position: absolute;
+	top: 5px;
+	left: 5px;}
+.form__radio-real:checked+.form__radio-fake+.form__radio-text {
+	color: #ec227b;}
+.form__radio-text {
+	vertical-align: middle;
+	font-size: 14px;
+	padding-right: 15px;}
+.form__right {
+	text-align: right;
+	line-height: 1;}
+.form__submit {
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 2.4px;
+	font-weight: bold;
+	color: white;
+	background-color: #27273e;
+	border: none;
+	border-radius: 3px;
+	width: 139px;
+	height: 45px;
+	cursor: pointer;}

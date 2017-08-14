@@ -1,0 +1,18 @@
+.breadcrumbs {
+	margin-top: 42px;
+	font-size: 14px;
+	font-style: italic;}
+.breadcrumbs__item {
+	display: inline-block;
+	vertical-align: middle;}
+.breadcrumbs__item a{
+	color: #ed187a;}
+.breadcrumbs__item::after {
+	display: inline-block;
+	vertical-align: middle;
+	content: "/"}
+.breadcrumbs__item:last-child a {
+	text-decoration: none;
+	color: #1d1919;}
+.breadcrumbs__item:last-child::after{
+	display: none;}

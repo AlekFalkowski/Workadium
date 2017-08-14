@@ -1,0 +1,13 @@
+@import "layout/normalize.css";
+@import "layout/fonts.css";
+@import "layout/base.css";
+
+@import "components/header.css";
+@import "components/menu.css";
+@import "components/breadcrumbs.css";
+@import "components/form.css";
+@import "components/footer.css";
+@import "components/about.css";
+@import "components/partners.css";
+@import "components/price.css";
+@import "components/reviews.css";

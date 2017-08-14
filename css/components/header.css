@@ -1,0 +1,67 @@
+.header {
+	background-color: #27273e;
+	padding: 12px 0;
+	font-size: 0px;}
+.header__left, .header__right {
+	display: inline-block;
+	width: 50%;
+	vertical-align: middle;
+	position: relative;}
+.header__logo img:hover {
+	opacity: 0.7;}
+.contacts {
+	float: right;}
+.contacts__phone a{
+	font-size: 21px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #ffffff;}
+.contacts__phone a:hover {
+	opacity: 0.7;}
+.contacts__schedule {
+	position: relative;
+	font-size: 14px;}
+.contacts__schedule a {
+	display: block;/*для схопывания блока*/
+	float: right;/*для схопывания блока*/
+	font-weight: bold;
+	color: #ed187a;
+	opacity: 0.7;}
+.contacts__dropdown {
+	display: none;
+	position: absolute;
+	right: 0;
+	top: 100%;
+	z-index: 10;
+	margin-top: 39px;
+	padding: 14px 10px;
+	border-radius: 4px 0 4px 4px;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+	background: #ffffff;}
+.contacts__dropdown::before {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: -11px;
+	content: "";
+	border: 11px solid transparent;
+	border-top-width: 0;
+	border-bottom-color: #ffffff;}
+.contacts__dropdown::after {
+	display: block;
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: -25px;
+	height: 25px;
+	content: "";}
+.contacts__time {
+	font-weight: bold;
+	color: #ed187a;}
+.contacts__lunch {
+	margin-top: 8px;}
+.contacts__schedule:hover a {
+	color: #5dd1f8;
+	opacity: 0.7;}
+.contacts__schedule:hover .contacts__dropdown {
+	display: block;}

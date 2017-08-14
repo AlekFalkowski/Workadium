@@ -1,0 +1,30 @@
+.about {
+	padding-right: 180px;
+	font-size: 18px;
+	line-height: 1.65;}
+.about h1 {
+	width: 879px;
+	height: 354px;
+	line-height: 354px;
+	padding-left: 65px;
+	margin-bottom: 23px;
+	background: url(../../img/background/about.jpg) no-repeat;
+	color: #ffffff;}
+.about p, .promotion p {
+	margin-top:0.4em;
+	margin-bottom: 0.4em;}
+.about ul {
+	margin-top: 0.6em;
+	margin-bottom: 0em;
+	padding-left: 35px;}
+.about li {
+	margin-bottom: 0.35em;}
+.promotion {
+	margin: 22px 0 0 0;
+	padding: 5px 30px;
+	background-color: #27273e;
+	font-size: 18px;
+	line-height: 1.65;
+	color: #ffffff;}
+.promotion span {
+	color: #ed187a;}

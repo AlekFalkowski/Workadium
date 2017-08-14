@@ -1,0 +1,32 @@
+.menu {
+	margin-top: 45px;
+	margin-right: 20px;}
+.menu__item {
+	display: block;
+	min-height: 20px;
+	margin-bottom: 30px;
+	background: no-repeat left center;
+	padding-left: 37px;
+	color: #ed187a;
+	text-decoration: none;}
+.menu__item-active, .menu__item:hover {
+	color: #1d1919;}
+.menu__item span {
+	max-width: 123px;
+	overflow: hidden;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-overflow: ellipsis;}
+.menu__item-1 {
+	background-image: url(../../img/icons/main-icon-color.png);}
+.menu__item-2 {
+	background-image: url(../../img/icons/wallet-icon-color.png);}
+.menu__item-3 {
+	background-image: url(../../img/icons/feed-icon-color.png);}
+.menu__item-1.menu__item-active, .menu__item-1:hover {
+	background-image: url(../../img/icons/main-icon.png);}
+.menu__item-2.menu__item-active, .menu__item-2:hover {
+	background-image: url(../../img/icons/wallet-icon.png);}
+.menu__item-3.menu__item-active, .menu__item-3:hover {
+	background-image: url(../../img/icons/feed-icon.png);}

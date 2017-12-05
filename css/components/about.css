@@ -18,7 +18,19 @@
 	margin-bottom: 0em;
 	padding-left: 35px;}
 .about li {
-	margin-bottom: 0.35em;}
+	margin-bottom: 0.35em;
+	list-style-type: none;
+	position: relative;}
+.about li::before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0.7em;
+	left: -0.8em;
+	width: 0.3em;
+	height: 0.3em;
+	border-radius: 50%;
+	background-color: #ed187a;}
 .promotion {
 	margin: 22px 0 0 0;
 	padding: 5px 30px;
